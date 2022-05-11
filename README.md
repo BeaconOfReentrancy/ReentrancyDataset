@@ -1,8 +1,5 @@
 # ReentrancyDataset
 
-### all_smart_contracts
-All open-source smart contracts that we have collected.
-
 ### deduplicated_smart_contracts
 The deduplicated smart contracts.
 
