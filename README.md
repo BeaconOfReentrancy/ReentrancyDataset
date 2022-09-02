@@ -7,9 +7,9 @@ The deduplicated smart contracts.
 The reentrant contracts (code) with labels.
 
 ### tools_output
-The output of analysis tools (oyente, mythril, securify1, securify2, smartian).
+The reported reentrancy by analysis tools (oyente, mythril, securify1, securify2, smartian, sailfish).
 
-### contract_information.csv
+### reentrancy_information.csv
 The reentrant labels of deduplicated smart contracts.
 
 In 'true positive' column:
@@ -25,3 +25,9 @@ In the column of tools (oyente, mythril, securify1, securify2, smartian):
 0 means the contract is not reported to reentrant contract by the tool.
 N/A means the contract does not be successfully analyzed by the tool.
 ```
+
+### contract_information_etherscan.csv
+The information of contracts from etherscan.
+
+### hash_to_address.json
+The mapping from the hash value (for deduplication) to the address.
